@@ -16,6 +16,11 @@ body {
   padding: 1.0rem 1.0rem 4.0rem;
 }
 
+p {
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+
 h1, h2 {
   color: #252f3e;
   border-bottom-style: solid;
@@ -23,20 +28,36 @@ h1, h2 {
   border-bottom-width: 0.15rem;
 }
 
-h2 {
-  margin: 1rem;
-}
-
 img#portrait {
   display: block;
   margin: auto;
-  max-width: 250px;
-  max-height: 300px;
+  width: 250px;
+  height: 300px;
   object-fit: none;
-  object-position: 54% 15%;
   border-radius: 50%;
   border-style: solid;
   border-color: #252f3e;
+}
+
+h3 {
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
+.project img{
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  float: left;
+  margin-right: 0.5rem;
+  border-style: solid;
+  border-color: white;
+  border-radius: 0.3rem;
+  border-width: 0.1rem;
+}
+
+.project img:hover {
+  border-color: #cf4900;
 }
 
 a {
@@ -72,22 +93,22 @@ footer {
 }
 
 footer a {
+  position: relative;
+  display: block;
+  height: 1.75rem;  
+  width: 1.75rem;
   margin: 0.1rem;
+  padding: 0.2rem;
   background-position: center;
   background-repeat: no-repeat;
   background-size: auto 1.75rem;
-  display: block;
-  height: 1.75rem;
-  position: relative;
-  width: 1.75rem;
-  padding: 0.2rem;
 }
 
 footer span {
   display: none;
 }
 
-footer a{
+footer a {
   float: right;
 }
 
