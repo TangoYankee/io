@@ -16,28 +16,67 @@ body {
   padding: 1.0rem 1.0rem 4.0rem;
 }
 
-header {
+p {
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+
+h1, h2 {
   color: #252f3e;
+  border-bottom-style: solid;
+  border-bottom-color: #cf4900;
+  border-bottom-width: 0.15rem;
 }
 
-hr {
-  color: #cf4900;
+img#portrait {
+  display: block;
+  margin: auto;
+  width: 250px;
+  height: 300px;
+  object-fit: none;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #252f3e;
 }
 
-a{
+h3 {
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
+.project img{
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  float: left;
+  margin-right: 0.5rem;
+  border-style: solid;
+  border-color: white;
+  border-radius: 0.3rem;
+  border-width: 0.1rem;
+}
+
+.project img:hover {
+  border-color: #cf4900;
+}
+
+a {
   text-decoration: none;
 }
+
 a:link {
   color: #0050d8;
 }
+
 a:hover {
   text-decoration: underline;
 }
+
 a:visited {
   color: #864381
 }
 
-footer div.link-container{
+footer div.link-container {
   max-width: 70rem;
   margin: auto;
   padding-bottom: 2.5rem;
@@ -54,31 +93,39 @@ footer {
 }
 
 footer a {
+  position: relative;
+  display: block;
+  height: 1.75rem;  
+  width: 1.75rem;
   margin: 0.1rem;
+  padding: 0.2rem;
   background-position: center;
   background-repeat: no-repeat;
   background-size: auto 1.75rem;
-  display: block;
-  height: 1.75rem;
-  position: relative;
-  width: 1.75rem;
-  padding: 0.2rem;
 }
 
 footer span {
   display: none;
 }
 
-footer a.github-link {
-  background-image: url("github_mark_light_120px_plus.png");
-  width: 1.75rem;
+footer a {
   float: right;
+}
+
+footer a.linked-in-link {
+  background-image: url("images/linkedin-logo.png");
+  width: 1.75rem;
+  left: -1.0rem;
+}
+
+footer a.github-link {
+  background-image: url("images/github_mark_light_120px_plus.png");
+  width: 1.75rem;
   left: -1.0rem;
 }
 
 footer a.email-link {
-  background-image: url("email_logo.png");
-  width: 2.6rem;
-  float: right;
+  background-image: url("images/email_logo.png");
+  width: 2.0rem;
   left: -1.0rem;
 }
