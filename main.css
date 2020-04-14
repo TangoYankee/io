@@ -1,0 +1,27 @@
+html, body {
+  position: relative;
+  color: #454540;
+  position: relative;
+  font-family: Merriweather Web, Georgia, Cambria, Times New Roman, Times, serif;
+}
+
+header {
+  color: #252f3e;
+}
+
+hr {
+  color: #cf4900;
+}
+
+a{
+  text-decoration: none;
+}
+a:link {
+  color: #0050d8;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:visited {
+  color: #864381
+}
