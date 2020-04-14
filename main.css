@@ -1,7 +1,10 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
 html, body {
-  position: relative;
   color: #454540;
-  position: relative;
   font-family: Merriweather Web, Georgia, Cambria, Times New Roman, Times, serif;
 }
 
@@ -24,4 +27,11 @@ a:hover {
 }
 a:visited {
   color: #864381
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
