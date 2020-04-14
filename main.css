@@ -20,21 +20,22 @@ header {
   color: #252f3e;
 }
 
-h1 {
+h1#main {
   border-bottom-style: solid;
   border-bottom-color: #cf4900;  
   border-bottom-width: 0.15rem;
 }
 
-.portrait{
-  max-width: 250px;
-  max-height: 300px;
-  text-indent: -75%;
-  overflow: hidden;
-  border-style: solid;
-  border-color: #cf4900;
-  border-radius: 50%;
+img#portrait{
+  display: block;  
   margin: auto;
+  max-width: 250px;
+  max-height: 300px;  
+  object-fit: none;  
+  object-position: 54% 15%;  
+  border-radius: 50%;  
+  border-style: solid;  
+  border-color: #252f3e;    
 }
 
 a{
