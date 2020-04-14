@@ -1,0 +1,84 @@
+html {
+  position: relative;
+  min-height: 100%;
+  width: 100%;
+  padding: 0;
+}
+
+html, body {
+  color: #454540;
+  font-family: Merriweather Web, Georgia, Cambria, Times New Roman, Times, serif;
+}
+
+body {
+  max-width: 75rem;
+  margin: auto;
+  padding: 1.0rem 1.0rem 4.0rem;
+}
+
+header {
+  color: #252f3e;
+}
+
+hr {
+  color: #cf4900;
+}
+
+a{
+  text-decoration: none;
+}
+a:link {
+  color: #0050d8;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:visited {
+  color: #864381
+}
+
+footer div.link-container{
+  max-width: 70rem;
+  margin: auto;
+  padding-bottom: 2.5rem;
+  padding-top: 0.25rem;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  margin: auto;
+  background-color: #252f3e;
+}
+
+footer a {
+  margin: 0.1rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto 1.75rem;
+  display: block;
+  height: 1.75rem;
+  position: relative;
+  width: 1.75rem;
+  padding: 0.2rem;
+}
+
+footer span {
+  display: none;
+}
+
+footer a.github-link {
+  background-image: url("github_mark_light_120px_plus.png");
+  width: 1.75rem;
+  float: right;
+  left: -1.0rem;
+}
+
+footer a.email-link {
+  background-image: url("email_logo.png");
+  width: 2.6rem;
+  float: right;
+  left: -1.0rem;
+}
