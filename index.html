@@ -1,7 +1,7 @@
 <html lang="en">
 
 <head>
-  <title>Tangled City</title>
+  <title>tangoyankee</title>
   <meta charset="utf-8">
   <meta name="description" content="landing page for portfolio">
   <meta name="author" content="Timothy Miller">
@@ -10,36 +10,23 @@
   <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 
-<header>
-  <h1>Tangled City</h1>
-</header>
+  <header>
+    <img id="portrait" src="images/portrait.jpg" title="Timothy Miller" alt="Portrait of Timothy Miller"/>
+  </header>
 
-<body>
-  <img id="portrait" src="images/portrait.jpg" title="Tim Miller" alt="portrait of Timothy Miller" />
-  <p>
-    Hello! My name is Tim Miller. I am a Full Stack Developer.
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean iaculis ultrices mi non scelerisque.
-    Aliquam laoreet tellus justo, eget egestas metus aliquam at. Vivamus risus odio, scelerisque id mollis eget,
-    ullamcorper sit amet nulla. Curabitur quis luctus urna. Suspendisse eu volutpat risus. Nam feugiat mi eros,
-    vitae rhoncus neque rutrum nec. Nunc finibus, tortor ac egestas blandit, metus quam fringilla purus,
-    vitae lacinia tortor ligula a mauris. Nam nec venenatis enim. Pellentesque vel efficitur quam.
-    Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas purus diam, blandit eget bibendum ac,
-    feugiat eget dui
-  </p>
-  <h2>What is a tangled city?</h2>
-  <p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean iaculis ultrices mi non scelerisque.
-    Aliquam laoreet tellus justo, eget egestas metus aliquam at. Vivamus risus odio, scelerisque id mollis eget,
-    ullamcorper sit amet nulla. Curabitur quis luctus urna. Suspendisse eu volutpat risus. Nam feugiat mi eros,
-    vitae rhoncus neque rutrum nec. Nunc finibus, tortor ac egestas blandit, metus quam fringilla purus,
-    vitae lacinia tortor ligula a mauris. Nam nec venenatis enim. Pellentesque vel efficitur quam.
-    Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas purus diam, blandit eget bibendum ac,
-    feugiat eget dui
-  </p>
-  <div id="projects">
-    <h2>Projects</h2>
-    <div class="project">
-      <h3>tangled city</h3>
+  <body>
+    <p>
+      Hello! My name is Tim Miller. I am a Full Stack Developer.
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean iaculis ultrices mi non scelerisque.
+      Aliquam laoreet tellus justo, eget egestas metus aliquam at. Vivamus risus odio, scelerisque id mollis eget,
+      ullamcorper sit amet nulla. Curabitur quis luctus urna. Suspendisse eu volutpat risus. Nam feugiat mi eros,
+      vitae rhoncus neque rutrum nec. Nunc finibus, tortor ac egestas blandit, metus quam fringilla purus,
+      vitae lacinia tortor ligula a mauris. Nam nec venenatis enim. Pellentesque vel efficitur quam.
+      Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas purus diam, blandit eget bibendum ac,
+      feugiat eget dui
+    </p>
+    <div id="projects">
+      <h1>Projects</h1>
       <p>
         This website is running on an Amazon EC2 instance.
         It is served by NGINX.
@@ -50,68 +37,69 @@
         Fundamentals serves a blog of CS concepts, written in flask with markdown pages.
         Safe Browse, Spark, and fundamentals are each running on a separate docker container in the same EC2 instance.
       </p>
-      <p>
-        As this website grows, additional applications written in various
-        languages will be added. Their url paths will include their names.
-      </p>
+      <div class="project">
+        <a title="safe browse for slack" href="https://tangoyankee.io/safebrowse">
+          <div class="project-link">
+            <img src="images/Ssslines.ico" title="SSSlines" alt="S with multiple lines">
+            <h2>safebrowse for slack</h2>
+          </div>
+        </a>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean iaculis ultrices mi non scelerisque.
+          Aliquam laoreet tellus justo, eget egestas metus aliquam at. Vivamus risus odio, scelerisque id mollis eget,
+          ullamcorper sit amet nulla. Curabitur quis luctus urna. Suspendisse eu volutpat risus. Nam feugiat mi eros,
+          vitae rhoncus neque rutrum nec. Nunc finibus, tortor ac egestas blandit, metus quam fringilla purus,
+          vitae lacinia tortor ligula a mauris. Nam nec venenatis enim. Pellentesque vel efficitur quam.
+          Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas purus diam, blandit eget bibendum ac,
+          feugiat eget dui
+        </p>
+      </div>
+      <div class="project">        
+        <a title="spark website" href="https://tangoyankee.io/spark/">
+            <div class="project-link">
+            <img src="images/spark-logo.png" title="phoenix spark" alt="orange phoenix silhouette">
+            <h2>spark</h2>
+          </div>
+        </a>      
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean iaculis ultrices mi non scelerisque.
+          Aliquam laoreet tellus justo, eget egestas metus aliquam at. Vivamus risus odio, scelerisque id mollis eget,
+          ullamcorper sit amet nulla. Curabitur quis luctus urna. Suspendisse eu volutpat risus. Nam feugiat mi eros,
+          vitae rhoncus neque rutrum nec. Nunc finibus, tortor ac egestas blandit, metus quam fringilla purus,
+          vitae lacinia tortor ligula a mauris. Nam nec venenatis enim. Pellentesque vel efficitur quam.
+          Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas purus diam, blandit eget bibendum ac,
+          feugiat eget dui
+        </p>
+      </div>
+      <div class="project">
+        <a title="fundamentals" href="https://tangoyankee.io/fundamentals">
+          <div class="project-link">
+            <img src="images/logo36.ico" title="tangled favicon" alt="tangled black line">
+            <h2>cs fundamentals</h2>
+          </div>
+        </a>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean iaculis ultrices mi non scelerisque.
+          Aliquam laoreet tellus justo, eget egestas metus aliquam at. Vivamus risus odio, scelerisque id mollis eget,
+          ullamcorper sit amet nulla. Curabitur quis luctus urna. Suspendisse eu volutpat risus. Nam feugiat mi eros,
+          vitae rhoncus neque rutrum nec. Nunc finibus, tortor ac egestas blandit, metus quam fringilla purus,
+          vitae lacinia tortor ligula a mauris. Nam nec venenatis enim. Pellentesque vel efficitur quam.
+          Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas purus diam, blandit eget bibendum ac,
+          feugiat eget dui
+        </p>
+      </div>
     </div>
-    <div class="project">
-      <a title="safe browse for slack" href="https://tangled.city/safebrowse">
-        <img src="images/Ssslines.ico" title="spark website logo" alt="spark website logo">
-      </a>
-      <h3>safebrowse for slack</h3>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean iaculis ultrices mi non scelerisque.
-        Aliquam laoreet tellus justo, eget egestas metus aliquam at. Vivamus risus odio, scelerisque id mollis eget,
-        ullamcorper sit amet nulla. Curabitur quis luctus urna. Suspendisse eu volutpat risus. Nam feugiat mi eros,
-        vitae rhoncus neque rutrum nec. Nunc finibus, tortor ac egestas blandit, metus quam fringilla purus,
-        vitae lacinia tortor ligula a mauris. Nam nec venenatis enim. Pellentesque vel efficitur quam.
-        Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas purus diam, blandit eget bibendum ac,
-        feugiat eget dui
-      </p>
-    </div>
-    <div class="project">
-      <a title="spark website" href="https://tangled.city/spark/">
-        <img src="images/spark-logo.png" title="spark website logo" alt="spark website logo">
-      </a>
-      <h3>spark</h3>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean iaculis ultrices mi non scelerisque.
-        Aliquam laoreet tellus justo, eget egestas metus aliquam at. Vivamus risus odio, scelerisque id mollis eget,
-        ullamcorper sit amet nulla. Curabitur quis luctus urna. Suspendisse eu volutpat risus. Nam feugiat mi eros,
-        vitae rhoncus neque rutrum nec. Nunc finibus, tortor ac egestas blandit, metus quam fringilla purus,
-        vitae lacinia tortor ligula a mauris. Nam nec venenatis enim. Pellentesque vel efficitur quam.
-        Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas purus diam, blandit eget bibendum ac,
-        feugiat eget dui
-      </p>
-    </div>
-    <div class="project">
-      <a title="fundamentals" href="https://tangled.city/fundamentals">
-        <img src="images/logo36.ico" title="tangled city favicon">
-      </a>
-      <h3>cs fundamentals</h3>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean iaculis ultrices mi non scelerisque.
-        Aliquam laoreet tellus justo, eget egestas metus aliquam at. Vivamus risus odio, scelerisque id mollis eget,
-        ullamcorper sit amet nulla. Curabitur quis luctus urna. Suspendisse eu volutpat risus. Nam feugiat mi eros,
-        vitae rhoncus neque rutrum nec. Nunc finibus, tortor ac egestas blandit, metus quam fringilla purus,
-        vitae lacinia tortor ligula a mauris. Nam nec venenatis enim. Pellentesque vel efficitur quam.
-        Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas purus diam, blandit eget bibendum ac,
-        feugiat eget dui
-      </p>
-    </div>
-  </div>
-</body>
+  </body>
 
-<footer>
-  <div class="link-container">
-    <a class="linked-in-link" title="linkedin.com/in/timothy-m-miller/"
-      href="https://www.linkedin.com/in/timothy-m-miller/"><span>linkedin at timothy-m-miller</span></a>
-    <a class="github-link" title="github.com/tangoyankee" href="https://github.com/tangoyankee"><span>github at
-        tangoyankee</span></a>
-    <a class="email-link" title="mailto:miller.tim108@gmail.com"
-      href="mailto:miller.tim108@gmail.com"><span>miller.tim108@gmail.com</span></a>
-  </div>
-</footer>
+  <footer>
+    <div class="link-container">
+      <a class="linked-in-link" title="linkedin.com/in/timothy-m-miller/"
+        href="https://www.linkedin.com/in/timothy-m-miller/"><span>linkedin at timothy-m-miller</span></a>
+      <a class="github-link" title="github.com/tangoyankee" href="https://github.com/tangoyankee"><span>github at
+          tangoyankee</span></a>
+      <a class="email-link" title="mailto:miller.tim108@gmail.com"
+        href="mailto:miller.tim108@gmail.com"><span>miller.tim108@gmail.com</span></a>
+    </div>
+  </footer>
 
 </html>
