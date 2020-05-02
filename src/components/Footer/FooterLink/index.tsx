@@ -12,7 +12,7 @@ export class FooterLink extends React.Component<FooterLinkProps, {}> {
   render () {
     return (
       <a className={this.props.class} title={this.props.title}
-        href={this.props.title} target="_blank">
+        href={this.props.href} target="_blank">
         <span>{this.props.span}</span>
       </a>
     )
