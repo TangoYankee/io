@@ -10,11 +10,10 @@
   <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 
-<header>
-  <img id="portrait" src="images/portrait.jpg" title="Timothy Miller" alt="Portrait of Timothy Miller" />
-</header>
-
 <body>
+  <header>
+    <img id="portrait" src="images/portrait.jpg" title="Timothy Miller" alt="Portrait of Timothy Miller" />
+  </header>
   <div id="about-me">
     <h1>About Me</h1>
     <p>
@@ -62,11 +61,16 @@
       web accessibility evaluation tool.
     </p>
     <p>
-      This website and all the listed projects are running on a single Amazon EC2 instance. Each project is running on a separate port 
-      inside its own docker container. An NGINX server directs traffic to the correct port based on the url path. Access to these ports is
-      restricted to only the NGINX server. The server also enforces https, the security certificates for which are provided by Let's Encrypt 
-      and installed with CertBot. This static site is updated by performing a git pull into the server's master branch from the 
-      github repository. The projects are updated by pulling their updated docker builds from docker hub. The docker hub is updated automatically
+      This website and all the listed projects are running on a single Amazon EC2 instance. Each project is running on a
+      separate port
+      inside its own docker container. An NGINX server directs traffic to the correct port based on the url path. Access
+      to these ports is
+      restricted to only the NGINX server. The server also enforces https, the security certificates for which are
+      provided by Let's Encrypt
+      and installed with CertBot. This static site is updated by performing a git pull into the server's master branch
+      from the
+      github repository. The projects are updated by pulling their updated docker builds from docker hub. The docker hub
+      is updated automatically
       when the master branch of each github repository is updated.
     </p>
     <div class="project">
@@ -78,8 +82,8 @@
       </a>
       <p>
         This Slack application allows users to check urls for threats reported through Google's Safe Browse API.
-        Slack users activate the check through the /safebrowse slash command. Each user can copy in suspicious urls 
-        and safe-browse-slack will return a report of suspected threats. It is written in Node.js with Express and 
+        Slack users activate the check through the /safebrowse slash command. Each user can copy in suspicious urls
+        and safe-browse-slack will return a report of suspected threats. It is written in Node.js with Express and
         tested with Jest.
       </p>
     </div>
@@ -93,7 +97,7 @@
       <p>
         The Spark website was the original website for the Travis AFB Innovation Cell. It is a Jekyll
         site forked from code.mil and styled using The U.S Web Design System. The site was intended
-        as a collaborative tool where Active Duty Airmen could learn about web development and 
+        as a collaborative tool where Active Duty Airmen could learn about web development and
         open source software by working on a live site.
       </p>
     </div>
@@ -105,25 +109,25 @@
         </div>
       </a>
       <p>
-        Fundamentals is a blog of data structures and algorithms. It's a flask application that renders markdown pages as html.
+        Fundamentals is a blog of data structures and algorithms. It's a flask application that renders markdown pages
+        as html.
       </p>
     </div>
   </div>
+  <footer>
+    <div class="link-container">
+      <a class="linked-in-link" title="linkedin.com/in/timothy-m-miller/"
+        href="https://www.linkedin.com/in/timothy-m-miller/" target="_blank">
+        <span>linkedin at timothy-m-miller</span>
+      </a>
+      <a class="github-link" title="github.com/tangoyankee" href="https://github.com/tangoyankee" target="_blank">
+        <span>github at tangoyankee</span>
+      </a>
+      <a class="email-link" title="mailto:miller.tim108@gmail.com" href="mailto:miller.tim108@gmail.com">
+        <span>miller.tim108@gmail.com</span>
+      </a>
+    </div>
+  </footer>
 </body>
-
-<footer>
-  <div class="link-container">
-    <a class="linked-in-link" title="linkedin.com/in/timothy-m-miller/"
-      href="https://www.linkedin.com/in/timothy-m-miller/" target="_blank">
-      <span>linkedin at timothy-m-miller</span>
-    </a>
-    <a class="github-link" title="github.com/tangoyankee" href="https://github.com/tangoyankee" target="_blank">
-      <span>github at tangoyankee</span>
-    </a>
-    <a class="email-link" title="mailto:miller.tim108@gmail.com" href="mailto:miller.tim108@gmail.com">
-      <span>miller.tim108@gmail.com</span>
-    </a>
-  </div>
-</footer>
 
 </html>

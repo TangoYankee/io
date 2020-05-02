@@ -1,0 +1,35 @@
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  margin: auto;
+  background-color: #252f3e;
+}
+
+footer div.link-container {
+  max-width: 70rem;
+  margin: auto;
+  padding-bottom: 2.5rem;
+  padding-top: 0.25rem;
+}
+
+footer a {
+  position: relative;
+  display: block;
+  height: 1.75rem;
+  width: 1.75rem;
+  margin: 0.1rem;
+  padding: 0.2rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto 1.75rem;
+}
+
+footer span {
+  display: none;
+}
+
+footer a {
+  float: right;
+}
