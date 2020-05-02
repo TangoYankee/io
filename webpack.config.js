@@ -3,6 +3,10 @@ module.exports = {
 
   devtool: 'source-map',
 
+  output: {
+    publicPath: 'dist/'
+  },
+
   resolve: {
     extensions: ['.ts', '.tsx']
   },
@@ -28,8 +32,8 @@ module.exports = {
       {
         test: /\.(png|svg|jpg|gif)$/,
         use: [
-          'file-loader',
-        ],
+          'file-loader'
+        ]
       },
       {
         enforce: 'pre',

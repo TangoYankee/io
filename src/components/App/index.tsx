@@ -2,9 +2,8 @@ import * as React from 'react'
 import { Hello } from '../Hello'
 import { Footer } from '../Footer'
 
-
 export class App extends React.Component<{}, {}> {
-  render() {
+  render () {
     return (
       <div>
         <h1>Something Important!</h1>
@@ -13,5 +12,4 @@ export class App extends React.Component<{}, {}> {
       </div>
     )
   }
-
 }

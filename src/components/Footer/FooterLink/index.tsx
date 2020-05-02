@@ -9,7 +9,7 @@ export interface FooterLinkProps {
 }
 
 export class FooterLink extends React.Component<FooterLinkProps, {}> {
-  render() {
+  render () {
     return (
       <a className={this.props.class} title={this.props.title}
         href={this.props.title} target="_blank">
