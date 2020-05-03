@@ -2,10 +2,10 @@ import * as React from 'react'
 import 'components/Footer/FooterLink/index.css'
 
 export interface FooterLinkProps {
-  class: string;
-  title: string;
-  href: string;
-  span: string;
+  class: string
+  title: string
+  href: string
+  span: string
 }
 
 export const footerLinks: FooterLinkProps[] = [
