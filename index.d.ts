@@ -1,4 +1,14 @@
 declare module '*.jpg' {
-  const content: string
-  export = content
+  const jpeg: string
+  export = jpeg
+}
+
+declare module '*.ico' {
+  const ico: string
+  export = ico
+}
+
+declare module '*.png' {
+  const png: string
+  export = png
 }

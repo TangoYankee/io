@@ -1,7 +1,7 @@
 import * as React from 'react'
 import 'components/Footer/FooterLink/index.css'
 
-export interface FooterLinkProps {
+interface FooterLinkProps {
   class: string
   title: string
   href: string
