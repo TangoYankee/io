@@ -1,4 +1,7 @@
 const path = require('path')
+// const MiniCSSExtractPlugin = require('mini-css-extract-plugin')
+// const CssUrlRelativePlugin = require('css-url-relative-plugin')
+// const ExtractTextPlugin = require('extract-text-webpack-plugin')
 
 module.exports = {
   mode: 'production',
@@ -6,13 +9,13 @@ module.exports = {
   devtool: 'source-map',
 
   output: {
-    publicPath: 'dist/'
+    publicPath: './dist/'
   },
 
   resolve: {
     extensions: ['.ts', '.tsx'],
     modules: [
-      path.resolve(__dirname, "src")
+      path.resolve(__dirname, 'src')
     ]
   },
 
@@ -30,14 +33,26 @@ module.exports = {
       {
         test: /\.css$/,
         use: [
-          'style-loader',
-          'css-loader'
+          {
+            loader: 'style-loader'
+          },
+          {
+            loader: 'css-loader',
+            options: {
+              url: true
+            }
+          }
         ]
       },
       {
         test: /\.(png|svg|jpg|gif)$/,
         use: [
-          'file-loader'
+          {
+            loader: 'file-loader',
+            options: {
+              esModule: false
+            }
+          }
         ]
       },
       {
