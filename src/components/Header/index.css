@@ -1,0 +1,10 @@
+img#portrait {
+  display: block;
+  margin: auto;
+  width: 250px;
+  height: 300px;
+  object-fit: none;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #252f3e;
+}

@@ -1,0 +1,42 @@
+html {
+  position: relative;
+  min-height: 100%;
+  width: 100%;
+  padding: 0;
+}
+
+html, body {
+  color: #454540;
+  font-family: Merriweather Web, Georgia, Cambria, Times New Roman, Times, serif;
+}
+
+body {
+  max-width: 75rem;
+  margin: auto;
+  padding: 1.0rem 1.0rem 4.0rem;
+}
+
+h1 {
+  color: #252f3e;
+  border-bottom-style: solid;
+  border-bottom-color: #cf4900;
+  border-bottom-width: 0.15rem;
+}
+
+h2 {
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
+p {
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+
+a:link {
+  color: #0050d8;
+}
+
+a:visited{
+  color: #864381;
+}

@@ -1,129 +1,20 @@
-<html lang="en">
+<!DOCTYPE html>
+<html>
 
 <head>
-  <title>tangoyankee</title>
-  <meta charset="utf-8">
-  <meta name="description" content="landing page for portfolio">
-  <meta name="author" content="Timothy Miller">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/ico" href="images/logo36.ico">
-  <link rel="stylesheet" type="text/css" href="main.css">
+    <title>tangoyankee</title>
+    <meta charset="utf-8">
+    <meta name="description" content="landing page for portfolio">
+    <meta name="author" content="Timothy Miller">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/ico" href="./src/img/logo36.ico">
 </head>
 
-<header>
-  <img id="portrait" src="images/portrait.jpg" title="Timothy Miller" alt="Portrait of Timothy Miller" />
-</header>
-
 <body>
-  <div id="about-me">
-    <h1>About Me</h1>
-    <p>
-      Hello! I'm Tim Miller. I'm a full stack web developer, bioengineer, and former air traffic controller (ATC) for
-      The U.S Air Force. TangoYankee comes from the NATO phonetic letters of my ATC operating intials. Every controller
-      has a set unique to their facility. Whenever they coordinate with another controller, each controller signs off
-      with their initials. It's git blame for aviators!
-    </p>
-    <p>
-      Before serving in the Air Force, I graduated Magna Cum Laude from <a title="Binghamton U"
-        href="https://binghamton.edu/" target="_blank">SUNY Binghamton</a>
-      with a degree in bioengineering. In the bioengineering program, I used mathematics to model the world as a series
-      of complex systems. These systems grow and adapt to
-      both instigate and react to change. For example, economies consist of people interacting through the exchange of
-      goods and services. Over time, our economy has
-      changed from agrarian, through industrial, and now to informational. Along the way, it experienced countless booms
-      and busts. A bioengineer's goal is to model,
-      predict, and influence that change to acheive a desirable outcome. You can learn more about complexity at the
-      <a title="NECSI" href="https://necsi.edu/" target="_blank">New England Complex Systems Institute</a>.
-    </p>
-    <p>
-      My complex systems perspective led me to become a web developer. The internet is the complex system used to
-      influence other complex systems. Computers,
-      users, and developers interact to build a network of information. This information is then used in decisions for
-      businesses, governments, scientific studies, and countless
-      other applications. It's a bioengineer's dream.
-    </p>
-    <p>
-      Of course, bioengineering and air traffic control have only gone so far to prep me to be a web developer. Over the
-      years, I've honed those
-      skills through various team and individual projects. You can see these skills through the resume, projects, and
-      GitHub portfolio included below. Thank you
-      for visiting!
-    </p>
-    <button id="resume" onclick=" window.open('images/Tim Miller - Resume 10-Apr-2020.pdf','_blank')">
-      View Resume
-    </button>
-  </div>
-  <div id="projects">
-    <h1>Projects</h1>
-    <p>
-      This page is a static site with plain html and css. By keeping it simple, it can be mobile friendly, accessible,
-      and cross-browser compatible with little effort. Accessibility is checked in part using the
-      <a title="accessibility evaluation" href="https://wave.webaim.org/" target="_blank">WAVE</a>
-      web accessibility evaluation tool.
-    </p>
-    <p>
-      This website and all the listed projects are running on a single Amazon EC2 instance. Each project is running on a separate port 
-      inside its own docker container. An NGINX server directs traffic to the correct port based on the url path. Access to these ports is
-      restricted to only the NGINX server. The server also enforces https, the security certificates for which are provided by Let's Encrypt 
-      and installed with CertBot. This static site is updated by performing a git pull into the server's master branch from the 
-      github repository. The projects are updated by pulling their updated docker builds from docker hub. The docker hub is updated automatically
-      when the master branch of each github repository is updated.
-    </p>
-    <div class="project">
-      <a title="safe browse for slack" href="https://tangoyankee.io/safebrowse" target="_blank">
-        <div class="project-link">
-          <img src="images/Ssslines.ico" title="SSSlines" alt="S with multiple lines">
-          <h2>safebrowse for slack</h2>
-        </div>
-      </a>
-      <p>
-        This Slack application allows users to check urls for threats reported through Google's Safe Browse API.
-        Slack users activate the check through the /safebrowse slash command. Each user can copy in suspicious urls 
-        and safe-browse-slack will return a report of suspected threats. It is written in Node.js with Express and 
-        tested with Jest.
-      </p>
-    </div>
-    <div class="project">
-      <a title="spark website" href="https://tangoyankee.io/spark/" target="_blank">
-        <div class="project-link">
-          <img src="images/spark-logo.png" title="phoenix spark" alt="orange phoenix silhouette">
-          <h2>spark</h2>
-        </div>
-      </a>
-      <p>
-        The Spark website was the original website for the Travis AFB Innovation Cell. It is a Jekyll
-        site forked from code.mil and styled using The U.S Web Design System. The site was intended
-        as a collaborative tool where Active Duty Airmen could learn about web development and 
-        open source software by working on a live site.
-      </p>
-    </div>
-    <div class="project">
-      <a title="fundamentals" href="https://tangoyankee.io/fundamentals" target="_blank">
-        <div class="project-link">
-          <img src="images/logo36.ico" title="tangled favicon" alt="tangled black line">
-          <h2>cs fundamentals</h2>
-        </div>
-      </a>
-      <p>
-        Fundamentals is a blog of data structures and algorithms. It's a flask application that renders markdown pages as html.
-      </p>
-    </div>
-  </div>
+    <div id="root"></div>
+    <script src="./node_modules/react/umd/react.development.js"></script>
+    <script src="./node_modules/react-dom/umd/react-dom.development.js"></script>
+    <script src="./dist/main.js"></script>
 </body>
 
-<footer>
-  <div class="link-container">
-    <a class="linked-in-link" title="linkedin.com/in/timothy-m-miller/"
-      href="https://www.linkedin.com/in/timothy-m-miller/" target="_blank">
-      <span>linkedin at timothy-m-miller</span>
-    </a>
-    <a class="github-link" title="github.com/tangoyankee" href="https://github.com/tangoyankee" target="_blank">
-      <span>github at tangoyankee</span>
-    </a>
-    <a class="email-link" title="mailto:miller.tim108@gmail.com" href="mailto:miller.tim108@gmail.com">
-      <span>miller.tim108@gmail.com</span>
-    </a>
-  </div>
-</footer>
-
-</html>
+</html
