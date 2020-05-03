@@ -1,5 +1,5 @@
 import * as React from 'react'
-import './index.css'
+import 'components/Footer/index.css'
 
 import { FooterLink, footerLinks } from './FooterLink'
 

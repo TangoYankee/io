@@ -1,5 +1,5 @@
 import * as React from 'react'
-import './index.css'
+import 'components/Hello/index.css'
 
 export interface HelloProps { compiler: string; framework: string; }
 

@@ -1,5 +1,5 @@
 import * as React from 'react'
-import './index.css'
+import 'components/Footer/FooterLink/index.css'
 
 export interface FooterLinkProps {
   class: string;

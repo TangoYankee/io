@@ -1,3 +1,5 @@
+const path = require('path')
+
 module.exports = {
   mode: 'production',
 
@@ -8,7 +10,10 @@ module.exports = {
   },
 
   resolve: {
-    extensions: ['.ts', '.tsx']
+    extensions: ['.ts', '.tsx'],
+    modules: [
+      path.resolve(__dirname, "src")
+    ]
   },
 
   module: {
