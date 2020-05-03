@@ -1,7 +1,4 @@
 const path = require('path')
-// const MiniCSSExtractPlugin = require('mini-css-extract-plugin')
-// const CssUrlRelativePlugin = require('css-url-relative-plugin')
-// const ExtractTextPlugin = require('extract-text-webpack-plugin')
 
 module.exports = {
   mode: 'production',
