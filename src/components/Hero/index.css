@@ -1,0 +1,38 @@
+img#portrait {
+  display: block;
+  margin: auto;
+  object-fit: none;
+  border-radius: 1.0rem;
+  border-style: solid;
+  border-color: #252f3e;
+}
+
+div.hero-link-container {
+  display: block;
+  margin: auto;
+  border-radius: 1rem;
+  border-style: solid;
+  border-color: #252f3e;
+  height: 5rem;
+  width: 279px;
+}
+
+div.hero a {
+  position: relative;
+  display: block;
+  height: 1.75rem;
+  width: 1.75rem;
+  margin: 0.1rem;
+  padding: 0.2rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto 1.75rem;
+}
+
+div.hero span {
+  display: none;
+}
+
+div.hero a {
+  float: right;
+}

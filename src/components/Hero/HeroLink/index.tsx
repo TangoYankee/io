@@ -1,14 +1,14 @@
 import * as React from 'react'
-import 'components/Footer/FooterLink/index.css'
+import 'components/Hero/HeroLink/index.css'
 
-interface FooterLinkProps {
+interface HeroLinkProps {
   class: string
   title: string
   href: string
   span: string
 }
 
-export const footerLinks: FooterLinkProps[] = [
+export const heroLinks: HeroLinkProps[] = [
   {
     class: 'linked-in-link',
     title: 'linkedin.com/in/timothy-m-miller/',
@@ -29,7 +29,7 @@ export const footerLinks: FooterLinkProps[] = [
   }
 ]
 
-export class FooterLink extends React.Component<FooterLinkProps, {}> {
+export class HeroLink extends React.Component<HeroLinkProps, {}> {
   render () {
     return (
       <a className={this.props.class} title={this.props.title}

@@ -1,7 +1,7 @@
 import * as React from 'react'
 import 'components/AboutMe/index.css'
 
-export function AboutMe () {
+export function AboutMe() {
   return (
     <div id="about-me">
       <h1>About Me</h1>
@@ -11,7 +11,7 @@ export function AboutMe () {
   )
 }
 
-function AboutMeContent () {
+function AboutMeContent() {
   return (
     <div>
       <p>
@@ -21,11 +21,10 @@ function AboutMeContent () {
         with their initials. It&apos;s git blame for aviators!
       </p>
       <p>
-        Before serving in the Air Force, I graduated Magna Cum Laude from <a title="Binghamton U"
-          href="https://binghamton.edu/" target="_blank" rel="noopener noreferrer">SUNY Binghamton</a>
-      with a degree in bioengineering. In the bioengineering program, I used mathematics to model the world as a series
-      of complex systems. These systems grow and adapt to
-      both instigate and react to change. For example, economies consist of people interacting through the exchange of
+        Before serving in the Air Force, I graduated from <a title="Binghamton U"
+          href="https://binghamton.edu/" target="_blank" rel="noopener noreferrer">SUNY Binghamton</a> with a degree in bioengineering.
+          In the bioengineering program, I used mathematics to model the world as a series of complex systems. These systems grow and
+          adapt to both instigate and react to change. For example, economies consist of people interacting through the exchange of
       goods and services. Over time, our economy has
       changed from agrarian, through industrial, and now to informational. Along the way, it experienced countless booms
       and busts. A bioengineer&apos;s goal is to model,
@@ -51,16 +50,16 @@ function AboutMeContent () {
 }
 
 class Resume extends React.Component<{}, {}> {
-  constructor (props: any) {
+  constructor(props: any) {
     super(props)
     this.openResume = this.openResume.bind(this)
   }
 
-  openResume (): void {
+  openResume(): void {
     window.open('src/img/Tim Miller - Resume 10-Apr-2020.pdf', '_blank', 'renoopener noreferer')
   }
 
-  render () {
+  render() {
     return (
       <button id="resume" onClick={this.openResume}>
         View Resume

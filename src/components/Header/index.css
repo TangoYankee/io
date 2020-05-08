@@ -1,8 +1,38 @@
-img#portrait {
-  display: block;
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
   margin: auto;
-  object-fit: none;
-  border-radius: 1.0rem;
-  border-style: solid;
-  border-color: #252f3e;
+  background-color: #252f3e;
+}
+
+header div.routes {
+  max-width: 70rem;
+  margin: auto;
+  padding-top: 0.75rem;
+  padding-bottom: 0.5rem;
+}
+
+header a.route {
+  color: white;
+  font-size: 1.5rem;
+  margin-left: 3rem;
+  margin-bottom: 0.75rem;
+}
+
+header a {
+  position: relative;
+  display: block;
+  height: 1.75rem;
+  width: 1.75rem;
+  margin: 0.1rem;
+  padding: 0.2rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto 1.75rem;
+}
+
+header a {
+  float: left;
 }
