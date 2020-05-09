@@ -1,20 +1,18 @@
 img#portrait {
-  display: block;
+  display: flex;
   margin: auto;
   object-fit: none;
-  border-radius: 1.0rem;
+  border-radius: 0.5rem;
   border-style: solid;
-  border-color: #252f3e;
+  border-color: black;
 }
 
 div.hero-link-container {
-  display: block;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
   margin: auto;
-  border-radius: 1rem;
-  border-style: solid;
-  border-color: #252f3e;
-  height: 5rem;
-  width: 279px;
+  width: 10rem;
 }
 
 div.hero a {

@@ -1,5 +1,5 @@
-header {
-  top: 0;
+footer {
+  bottom: 0;
   position: absolute;
   left: 0;
   width: 100%;
@@ -7,3 +7,5 @@ header {
   height: 2.5rem;
   background-color: #252f3e;  
 }
+
+
