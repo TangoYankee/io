@@ -1,7 +1,7 @@
 import * as React from 'react'
 import 'components/AboutMe/index.css'
 
-export function AboutMe() {
+export function AboutMe () {
   return (
     <div id="about-me">
       <h1>About Me</h1>
@@ -11,7 +11,7 @@ export function AboutMe() {
   )
 }
 
-function AboutMeContent() {
+function AboutMeContent () {
   return (
     <div>
       <p>
@@ -50,16 +50,16 @@ function AboutMeContent() {
 }
 
 class Resume extends React.Component<{}, {}> {
-  constructor(props: any) {
+  constructor (props: any) {
     super(props)
     this.openResume = this.openResume.bind(this)
   }
 
-  openResume(): void {
+  openResume (): void {
     window.open('src/img/Tim Miller - Resume 10-Apr-2020.pdf', '_blank', 'renoopener noreferer')
   }
 
-  render() {
+  render () {
     return (
       <button id="resume" onClick={this.openResume}>
         View Resume

@@ -7,3 +7,15 @@ header {
   height: 2.5rem;
   background-color: #252f3e;  
 }
+
+header div.title-container {
+  max-width: 70rem;
+  margin: auto;
+}
+
+header span.title{
+  color: white;
+  font-size: 1.5rem;
+  float: right;
+  margin-top: 0.2rem;
+}

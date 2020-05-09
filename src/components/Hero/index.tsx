@@ -3,7 +3,7 @@ import 'components/Hero/index.css'
 import { HeroLink, heroLinks } from 'components/Hero/HeroLink'
 import * as portrait from 'img/portrait.jpg'
 
-export function Hero() {
+export function Hero () {
   return (
     <div className="hero">
       <HeroImg />
@@ -12,14 +12,13 @@ export function Hero() {
   )
 }
 
-function HeroImg() {
+function HeroImg () {
   return (
     <img id="portrait" src={portrait} title="Timothy Miller" alt="Portrait of Timothy Miller" />
   )
 }
 
-
-function HeroLinks() {
+function HeroLinks () {
   const heroItems = heroLinks.map((heroItem) =>
     <HeroLink key={heroItem.title}
       class={heroItem.class}
