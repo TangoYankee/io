@@ -1,0 +1,8 @@
+header, footer {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  margin: auto;
+  height: 2.5rem;
+  background-color: #252f3e;  
+}

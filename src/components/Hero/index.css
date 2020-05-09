@@ -1,0 +1,28 @@
+img#portrait {
+  display: flex;
+  margin: auto;
+  border-radius: 0.5rem;
+  border-style: solid;
+  border-width: 0.18rem;
+  border-color: #cf4900;
+}
+
+div.hero-link-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: auto;
+  width: 10rem;
+}
+
+div.hero a {
+  height: 1.75rem;
+  margin: 0.5rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto 1.75rem;
+}
+
+div.hero span {
+  display: none;
+}

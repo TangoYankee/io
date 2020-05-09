@@ -21,11 +21,10 @@ function AboutMeContent () {
         with their initials. It&apos;s git blame for aviators!
       </p>
       <p>
-        Before serving in the Air Force, I graduated Magna Cum Laude from <a title="Binghamton U"
-          href="https://binghamton.edu/" target="_blank" rel="noopener noreferrer">SUNY Binghamton</a>
-      with a degree in bioengineering. In the bioengineering program, I used mathematics to model the world as a series
-      of complex systems. These systems grow and adapt to
-      both instigate and react to change. For example, economies consist of people interacting through the exchange of
+        Before serving in the Air Force, I graduated from <a title="Binghamton U"
+          href="https://binghamton.edu/" target="_blank" rel="noopener noreferrer">SUNY Binghamton</a> with a degree in bioengineering.
+          In the bioengineering program, I used mathematics to model the world as a series of complex systems. These systems grow and
+          adapt to both instigate and react to change. For example, economies consist of people interacting through the exchange of
       goods and services. Over time, our economy has
       changed from agrarian, through industrial, and now to informational. Along the way, it experienced countless booms
       and busts. A bioengineer&apos;s goal is to model,
