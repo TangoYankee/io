@@ -1,29 +1,23 @@
 img#portrait {
-  display: block;
+  display: flex;
   margin: auto;
-  object-fit: none;
-  border-radius: 1.0rem;
+  border-radius: 0.5rem;
   border-style: solid;
-  border-color: #252f3e;
+  border-width: 0.18rem;
+  border-color: #cf4900;
 }
 
 div.hero-link-container {
-  display: block;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
   margin: auto;
-  border-radius: 1rem;
-  border-style: solid;
-  border-color: #252f3e;
-  height: 5rem;
-  width: 279px;
+  width: 10rem;
 }
 
 div.hero a {
-  position: relative;
-  display: block;
   height: 1.75rem;
-  width: 1.75rem;
-  margin: 0.1rem;
-  padding: 0.2rem;
+  margin: 0.5rem;
   background-position: center;
   background-repeat: no-repeat;
   background-size: auto 1.75rem;
@@ -31,8 +25,4 @@ div.hero a {
 
 div.hero span {
   display: none;
-}
-
-div.hero a {
-  float: right;
 }
