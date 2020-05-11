@@ -7,6 +7,12 @@ img#portrait {
   border-color: #cf4900;
 }
 
+img.contact-icon {
+  height: 1.75rem;
+  width: 1.75rem;
+  margin: 0.5rem;
+}
+
 div.hero-link-container {
   display: flex;
   flex-direction: row;
@@ -20,23 +26,15 @@ div.hero-link-container a {
   margin: auto 0;
 }
 
-div.hero-link-container:hover {
-  flex-direction: column;
-}
-
-div.hero-link-container:hover a {
-  display: flex;
-}
-
 div.contact-container {
   display: inline-flex;
   justify-content: left;
 }
 
-div.contact-container span {
-  height: 1.75rem;
-  margin: 0.5rem;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: auto 1.75rem;
+div.hero-link-container:active {
+  flex-direction: column;
+}
+
+div.hero-link-container:active a {
+  display: flex;
 }

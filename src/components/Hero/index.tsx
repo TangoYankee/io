@@ -35,7 +35,7 @@ class HeroContact extends React.Component<{}, { showLinks: Boolean }> {
   render () {
     const heroItems = heroLinks.map((heroItem) =>
       <HeroLink key={heroItem.title}
-        class={heroItem.class}
+        icon={heroItem.icon}
         title={heroItem.title}
         href={heroItem.href}
         display={heroItem.display}
