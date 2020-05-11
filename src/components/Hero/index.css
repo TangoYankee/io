@@ -4,7 +4,18 @@ img#portrait {
   border-radius: 0.5rem;
   border-style: solid;
   border-width: 0.18rem;
-  border-color: #cf4900;
+  border-color: #822133;
+}
+
+img.contact-icon {
+  height: 1.75rem;
+  width: 1.75rem;
+  margin: 0.5rem;
+}
+
+div.contact-container {
+  display: inline-flex;
+  justify-content: left;
 }
 
 div.hero-link-container {
@@ -12,17 +23,18 @@ div.hero-link-container {
   flex-direction: row;
   justify-content: space-evenly;
   margin: auto;
-  width: 10rem;
+  width: 15rem;
 }
 
-div.hero a {
-  height: 1.75rem;
-  margin: 0.5rem;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: auto 1.75rem;
-}
-
-div.hero span {
+div.hero-link-container a {
   display: none;
+  margin: auto 0;
+}
+
+div.hero-link-container.active {
+  flex-direction: column;
+}
+
+div.hero-link-container.active a {
+  display: flex;
 }
