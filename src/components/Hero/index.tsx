@@ -42,7 +42,7 @@ class HeroContact extends React.Component<{}, { showLinks: Boolean }> {
       />
     )
     return (
-      <div className='hero-link-container'>
+      <div className={`hero-link-container ' ${this.state.showLinks ? 'active' : null}`} onClick={this.toggleLinks}>
         {heroItems}
       </div>
     )
