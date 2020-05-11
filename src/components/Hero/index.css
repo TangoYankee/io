@@ -12,17 +12,13 @@ div.hero-link-container {
   flex-direction: row;
   justify-content: space-evenly;
   margin: auto;
-  width: 10rem;
+  width: 15rem;
 }
 
-div.hero a {
+div.hero span {
   height: 1.75rem;
   margin: 0.5rem;
   background-position: center;
   background-repeat: no-repeat;
   background-size: auto 1.75rem;
-}
-
-div.hero span {
-  display: none;
 }

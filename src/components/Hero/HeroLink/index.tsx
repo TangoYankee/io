@@ -19,7 +19,7 @@ export const heroLinks: HeroLinkProps[] = [
     class: 'github-link',
     title: 'github.com/tangoyankee',
     href: 'https://github.com/tangoyankee',
-    span: 'github at tangoyankeer'
+    span: 'github at tangoyankee'
   },
   {
     class: 'email-link',
@@ -32,10 +32,7 @@ export const heroLinks: HeroLinkProps[] = [
 export class HeroLink extends React.Component<HeroLinkProps, {}> {
   render () {
     return (
-      <a className={this.props.class} title={this.props.title}
-        href={this.props.href} target="_blank" rel="noopener noreferrer" >
-        <span>{this.props.span}</span>
-      </a>
+      <span className={this.props.class} title={this.props.title}></span>
     )
   }
 }
