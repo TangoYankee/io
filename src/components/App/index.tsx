@@ -13,6 +13,7 @@ export class App extends React.Component<{}, {}> {
         <Hero/>
         <AboutMe />
         <Projects />
+        <Footer />
       </div>
     )
   }
