@@ -5,5 +5,8 @@ footer {
   width: 100%;
   margin: auto;
   height: 2.5rem;
-  background-color: #252f3e;  
+  background-color: #252f3e;
+  
+  border-top-style: solid;
+  border-top-color:  #454540;
 }
