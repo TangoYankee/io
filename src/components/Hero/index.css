@@ -13,22 +13,27 @@ div.hero-link-container {
   justify-content: space-evenly;
   margin: auto;
   width: 15rem;
-  border-style: solid;
 }
 
-div.hero-link-container a{
+div.hero-link-container a {
   display: none;
+  margin: auto 0;
 }
 
 div.hero-link-container:hover {
   flex-direction: column;
 }
 
-div.hero-link-container:hover a{
+div.hero-link-container:hover a {
   display: flex;
 }
 
-div.hero span {
+div.contact-container {
+  display: inline-flex;
+  justify-content: left;
+}
+
+div.contact-container span {
   height: 1.75rem;
   margin: 0.5rem;
   background-position: center;

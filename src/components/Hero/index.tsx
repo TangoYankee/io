@@ -3,7 +3,7 @@ import 'components/Hero/index.css'
 import { HeroLink, heroLinks } from 'components/Hero/HeroLink'
 import * as portrait from 'img/portrait.jpg'
 
-export function Hero() {
+export function Hero () {
   return (
     <div className="hero">
       <HeroImg />
@@ -12,14 +12,14 @@ export function Hero() {
   )
 }
 
-function HeroImg() {
+function HeroImg () {
   return (
     <img id="portrait" src={portrait} title="Timothy Miller" alt="Portrait of Timothy Miller" />
   )
 }
 
 class HeroContact extends React.Component<{}, { showLinks: Boolean }> {
-  constructor(props: any) {
+  constructor (props: any) {
     super(props)
     this.state = {
       showLinks: false
@@ -28,17 +28,17 @@ class HeroContact extends React.Component<{}, { showLinks: Boolean }> {
     this.toggleLinks = this.toggleLinks.bind(this)
   }
 
-  toggleLinks() {
+  toggleLinks () {
     this.setState(state => ({ showLinks: !state.showLinks }))
   }
 
-  render() {
+  render () {
     const heroItems = heroLinks.map((heroItem) =>
       <HeroLink key={heroItem.title}
         class={heroItem.class}
         title={heroItem.title}
         href={heroItem.href}
-        span={heroItem.span}
+        display={heroItem.display}
       />
     )
     return (
