@@ -26,6 +26,10 @@ div.hero-link-container {
   width: 15rem;
 }
 
+div.hero-link-container:hover {
+  cursor: pointer;
+}
+
 div.hero-link-container a {
   display: none;
   margin: auto 0;
@@ -37,4 +41,9 @@ div.hero-link-container.active {
 
 div.hero-link-container.active a {
   display: flex;
+  text-decoration: none;
+}
+
+div.hero-link-container.active a:hover {
+  text-decoration: underline;
 }

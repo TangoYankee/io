@@ -4,8 +4,8 @@
   "description": "portfolio",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --config webpack.prod.js",
-    "watch": "webpack --watch --config webpack.dev.js",
+    "build": "webpack --mode=production",
+    "watch": "webpack --mode=development --watch",
     "lint": "eslint . --ext .ts,.tsx,.js",
     "lint-fix": "eslint . --ext .ts,.tsx,.js --fix",
     "test": "echo \"Error: no test specified\" && exit 1"

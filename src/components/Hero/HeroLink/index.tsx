@@ -1,8 +1,8 @@
 import * as React from 'react'
 import 'components/Hero/HeroLink/index.css'
-import * as linkedInIcon from 'img/linkedin-logo.png';
-import * as githubIcon from 'img/GitHub-Mark-64px.png';
-import * as emailIcon from 'img/baseline_email_black_18dp.png';
+import * as linkedInIcon from 'img/linkedin-logo.png'
+import * as githubIcon from 'img/GitHub-Mark-64px.png'
+import * as emailIcon from 'img/baseline_email_black_18dp.png'
 
 interface HeroLinkProps {
   icon: string
