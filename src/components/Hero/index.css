@@ -13,6 +13,19 @@ div.hero-link-container {
   justify-content: space-evenly;
   margin: auto;
   width: 15rem;
+  border-style: solid;
+}
+
+div.hero-link-container a{
+  display: none;
+}
+
+div.hero-link-container:hover {
+  flex-direction: column;
+}
+
+div.hero-link-container:hover a{
+  display: flex;
 }
 
 div.hero span {

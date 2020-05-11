@@ -32,7 +32,9 @@ export const heroLinks: HeroLinkProps[] = [
 export class HeroLink extends React.Component<HeroLinkProps, {}> {
   render () {
     return (
-      <span className={this.props.class} title={this.props.title}></span>
+      <span className={this.props.class} title={this.props.title}>
+      <a href="#about-me">/tangoyankee</a>
+      </span>
     )
   }
 }
