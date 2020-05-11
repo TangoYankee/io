@@ -5,7 +5,9 @@ header {
   width: 100%;
   margin: auto;
   height: 2.5rem;
-  background-color: #252f3e;  
+  background-color: #252f3e;
+  border-bottom-style: solid;
+  border-bottom-color:  #454540;
 }
 
 header div.title-container {
