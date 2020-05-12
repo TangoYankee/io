@@ -965,7 +965,6 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const React = __webpack_require__(/*! react */ "react");
 const ssslines = __webpack_require__(/*! img/Ssslines.ico */ "./src/img/Ssslines.ico");
 const sparkLogo = __webpack_require__(/*! img/spark-logo.png */ "./src/img/spark-logo.png");
-const logo36 = __webpack_require__(/*! img/logo36.ico */ "./src/img/logo36.ico");
 exports.projectList = [
     {
         linkTitle: 'safe browse for slack',
@@ -988,16 +987,6 @@ exports.projectList = [
         text: 'The Spark website was the original website for the Travis AFB Innovation Cell. It is a Jekyll site forked ' +
             'from code.mil and styled using The U.S Web Design System. The site was intended as a collaborative tool where ' +
             'Active Duty Airmen could learn about web development and open source software by working on a live site.'
-    },
-    {
-        linkTitle: 'fundamentals',
-        href: 'fundamentals',
-        imgSrc: logo36,
-        imgTitle: 'tangled favicon',
-        imgAlt: 'tangled black line',
-        header: 'cs fundamentals',
-        text: "Fundamentals is a blog of data structures and algorithms. It's a flask application that renders " +
-            'markdown pages as html.'
     }
 ];
 class Project extends React.Component {
@@ -1064,7 +1053,7 @@ function Projects() {
         React.createElement("p", null,
             "This site is written in React with Typescript and bundled together with Webpack. Its minimalist presentation means it can be mobile friendly, accessible, and cross-browser compatible with little effort. Accessibility is checked in part using the ",
             React.createElement("a", { title: "accessibility evaluation", href: "https://wave.webaim.org/", target: "_blank", rel: "noopener noreferrer" }, "WAVE"),
-            "web accessibility evaluation tool."),
+            " web accessibility evaluation tool. Hosting for this site, as well as the projects listed below, is provided by a single Amazon EC2 instance. Each website is hosted in its own docker container on a separate port. An NGINX server routes traffic the to correct port based on the site path."),
         projectItems));
 }
 exports.Projects = Projects;
@@ -1113,17 +1102,6 @@ module.exports = __webpack_require__.p + "d2de5b08fe8ad47e60c8b80e5dd0807d.png";
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "2f8caa45f4013d4cbd96da230c311959.png";
-
-/***/ }),
-
-/***/ "./src/img/logo36.ico":
-/*!****************************!*\
-  !*** ./src/img/logo36.ico ***!
-  \****************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "9c50cacc93d61df90e2b4a16550dc3d7.ico";
 
 /***/ }),
 

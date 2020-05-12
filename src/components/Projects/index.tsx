@@ -22,8 +22,9 @@ export function Projects () {
       <p>
         This site is written in React with Typescript and bundled together with Webpack. Its minimalist presentation means it can be mobile friendly, accessible,
       and cross-browser compatible with little effort. Accessibility is checked in part using the <a title="accessibility evaluation"
-          href="https://wave.webaim.org/" target="_blank" rel="noopener noreferrer">WAVE</a>
-      web accessibility evaluation tool.
+          href="https://wave.webaim.org/" target="_blank" rel="noopener noreferrer">WAVE</a> web accessibility evaluation tool.
+          Hosting for this site, as well as the projects listed below, is provided by a single Amazon EC2 instance. Each website is hosted in its own docker container
+          on a separate port. An NGINX server routes traffic the to correct port based on the site path.
       </p>
       {projectItems}
     </div>
