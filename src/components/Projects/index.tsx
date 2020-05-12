@@ -6,11 +6,11 @@ import { Project, projectList } from 'components/Projects/Project'
 export function Projects () {
   const projectItems = projectList.map(project =>
     <Project key={project.header}
-      linkTitle = {project.linkTitle}
-      href = {project.href}
-      imgSrc = {project.imgSrc}
-      imgTitle = {project.imgTitle}
-      imgAlt = {project.imgAlt}
+      linkTitle={project.linkTitle}
+      href={project.href}
+      imgSrc={project.imgSrc}
+      imgTitle={project.imgTitle}
+      imgAlt={project.imgAlt}
       header={project.header}
       text={project.text}
     />
@@ -26,7 +26,9 @@ export function Projects () {
           Hosting for this site, as well as the projects listed below, is provided by a single Amazon EC2 instance. Each website is hosted in its own docker container
           on a separate port. An NGINX server routes traffic the to correct port based on the site path.
       </p>
-      {projectItems}
+      <div className="project-list">
+        {projectItems}
+      </div>
     </div>
   )
 }

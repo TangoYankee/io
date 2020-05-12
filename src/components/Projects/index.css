@@ -17,3 +17,13 @@
   float: left;
   margin: 0.25rem;
 }
+
+.project {
+  flex: 1;
+}
+
+.project-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

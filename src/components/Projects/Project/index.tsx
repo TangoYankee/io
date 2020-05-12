@@ -22,8 +22,8 @@ export const projectList: ProjectProps[] = [
     imgAlt: 'S with multiple lines',
     header: 'safebrowse for slack',
     text: "This Slack application allows users to check urls for threats reported through Google's Safe Browse API. " +
-    'Slack users activate the check through the /safebrowse slash command. Each user can copy in suspicious urls and ' +
-    'safe-browse-slack will return a report of suspected threats. It is written in Node.js with Express and tested with Jest.'
+      'Slack users activate the check through the /safebrowse slash command. Each user can copy in suspicious urls and ' +
+      'safe-browse-slack will return a report of suspected threats. It is written in Node.js with Express and tested with Jest.'
   },
   {
     linkTitle: 'spark website',
@@ -33,8 +33,8 @@ export const projectList: ProjectProps[] = [
     imgAlt: 'orange phoenix silhouette',
     header: 'spark',
     text: 'The Spark website was the original website for the Travis AFB Innovation Cell. It is a Jekyll site forked ' +
-    'from code.mil and styled using The U.S Web Design System. The site was intended as a collaborative tool where ' +
-    'Active Duty Airmen could learn about web development and open source software by working on a live site.'
+      'from code.mil and styled using The U.S Web Design System. The site was intended as a collaborative tool where ' +
+      'Active Duty Airmen could learn about web development and open source software by working on a live site.'
   }
 ]
 
