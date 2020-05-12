@@ -1,6 +1,6 @@
 import * as React from 'react'
 
-import * as ssslines from 'img/Ssslines.ico'
+import * as ssslines from 'img/Ssslines.svg'
 import * as sparkLogo from 'img/spark-logo.png'
 
 interface ProjectProps {
