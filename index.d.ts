@@ -12,3 +12,8 @@ declare module '*.png' {
   const png: string
   export = png
 }
+
+declare module '*.svg' {
+  const svg: string
+  export = svg
+}
