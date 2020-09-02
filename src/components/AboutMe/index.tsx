@@ -16,7 +16,7 @@ function AboutMeContent () {
     <div>
       <p>
         Hello! I&apos;m Tim Miller. I&apos;m a full stack web developer, bioengineer, and former air traffic controller (ATC) for
-        The U.S Air Force. TangoYankee comes from the NATO phonetic letters of my ATC operating intials. Every controller
+        The U.S Air Force. TangoYankee comes from the NATO phonetic letters of my ATC operating initials. Every controller
         has a set unique to their facility. Whenever they coordinate with another controller, each controller signs off
         with their initials. It&apos;s git blame for aviators!
       </p>
@@ -28,7 +28,7 @@ function AboutMeContent () {
       goods and services. Over time, our economy has
       changed from agrarian, through industrial, and now to informational. Along the way, it experienced countless booms
       and busts. A bioengineer&apos;s goal is to model,
-      predict, and influence that change to acheive a desirable outcome. You can learn more about complexity at the <a title="NECSI"
+      predict, and influence that change to achieve a desirable outcome. You can learn more about complexity at the <a title="NECSI"
           href="https://necsi.edu/" target="_blank" rel="noopener noreferrer">New England Complex Systems Institute</a>.
       </p>
       <p>
@@ -56,7 +56,7 @@ class Resume extends React.Component<{}, {}> {
   }
 
   openResume (): void {
-    window.open('src/img/Tim Miller - Resume 10-Apr-2020.pdf', '_blank', 'renoopener noreferer')
+    window.open('src/img/Tim Miller - Resume 10-Apr-2020.pdf', '_blank', 'noreferrer noopener')
   }
 
   render () {
