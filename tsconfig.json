@@ -9,5 +9,7 @@
       "target": "es6",
       "jsx": "react"
   },
-  "include": ["src/**/*", "index.d.ts"]
+  "include": ["src/**/*", "index.d.ts"],
+  "exclude": ["node_modules", "dist", "coverage", "webpack"],
+  "types": ["webpack-env"]
 }

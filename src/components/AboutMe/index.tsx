@@ -1,6 +1,6 @@
 import * as React from 'react'
 import 'components/AboutMe/index.css'
-import * as ResumeFile from 'img/Tim Miller - Resume 10-Apr-2020.pdf' 
+import * as ResumeFile from 'img/Tim Miller - Resume 10-Apr-2020.pdf'
 
 export function AboutMe () {
   return (

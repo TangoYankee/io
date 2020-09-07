@@ -68,6 +68,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       inject: true,
       template: path.join(__dirname, 'index.html'),
+      favicon: path.join(__dirname, 'src/img/logo36.ico'),
       minify: false
     })
   ]
