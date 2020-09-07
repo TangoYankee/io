@@ -1,5 +1,6 @@
 import * as React from 'react'
 import 'components/AboutMe/index.css'
+import * as ResumeFile from 'img/Tim Miller - Resume 10-Apr-2020.pdf' 
 
 export function AboutMe () {
   return (
@@ -56,7 +57,7 @@ class Resume extends React.Component<{}, {}> {
   }
 
   openResume (): void {
-    window.open('src/img/Tim Miller - Resume 10-Apr-2020.pdf', '_blank', 'noreferrer noopener')
+    window.open(ResumeFile, '_blank', 'noreferrer noopener')
   }
 
   render () {
