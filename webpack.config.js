@@ -1,17 +1,23 @@
 const path = require('path')
+const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
 
   devtool: 'source-map',
 
+  entry: path.join(__dirname, 'src/index.tsx'),
+
   output: {
-    publicPath: './dist/'
+    path: path.join(__dirname, 'dist'),
+    filename: 'bundle.js',
+    publicPath: ''
   },
 
   resolve: {
-    extensions: ['.ts', '.tsx'],
+    extensions: ['.ts', '.tsx', '.js', '.json'],
     modules: [
-      path.resolve(__dirname, 'src')
+      path.join(__dirname, 'src'),
+      path.join(__dirname, 'node_modules')
     ]
   },
 
@@ -58,8 +64,11 @@ module.exports = {
       }
     ]
   },
-  externals: {
-    react: 'React',
-    'react-dom': 'ReactDOM'
-  }
+  plugins: [
+    new HtmlWebpackPlugin({
+      inject: true,
+      template: path.join(__dirname, 'index.html'),
+      minify: false
+    })
+  ]
 }
